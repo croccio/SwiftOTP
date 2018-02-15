@@ -16,6 +16,6 @@ s.ios.deployment_target = '8.0'
 
 s.source_files = 'SwiftOTP/**/*'
 
-s.dependency 'CryptoSwift', '>= 0.8.0'
+s.dependency 'CryptoSwift', :git 'https://github.com/krzyzanowskim/CryptoSwift.git', :branch 'swift3'
 end
 
